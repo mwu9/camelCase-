@@ -1,8 +1,8 @@
 function camelCase(sentence){
     let result = ''; //make an empty string for the loop to stack the words
     
-    let stringArray = []; //make an empty array that contains every word in an array 
-    stringArray = sentence.split(" "); 
+    let stringArray = []; //make an empty array 
+    stringArray = sentence.split(" "); //separates every word that has a space between 
     
     for (let i= 0;i < stringArray.length; i++){
       if (i === 0){
